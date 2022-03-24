@@ -1,0 +1,20 @@
+# ---------- My GitIgnore ----------
+/.vs/*
+/Binaries/*
+/Config/*
+!/Config/DefaultGameplayTags.ini
+!/Config/DefaultInput.ini
+/Content/Collections/*
+/Content/Developers/*
+/Content/Geometry/*
+/Content/Mannequin/*
+/Content/ParagonGideon/*
+/Content/StarterContent/*
+/Content/ThirdPerson/*
+/Content/ThirdPersonBP/*
+/DerivedDataCache/*
+/Intermediate/*
+/Saved/*
+/Script/*
+/GASReplication.sln
+/GASReplication.uproject
