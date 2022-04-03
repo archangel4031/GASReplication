@@ -8,4 +8,4 @@ This time I will be adding C++ and Blueprints code **YAY!** So you can find C++ 
 I have also included *DefaultGameplayTags.ini* and *DefaultInput.ini* which can be found in **/Config/** folder so that you do not need to manually add tags and Input Bindiings
 
 ###### Note:
-Due to free GitHub account limitation, you can find the full project on [Mega Link](https://mega.nz/folder/Ks42BapA#XlsC0fkUmAWgFVXlFUwfhw).
+Due to free GitHub account limitation, you can find the full project on [Mega Link](https://mega.nz/folder/utBBiR7B#sjifBa9L_ZQDJoq_knHR8w).
