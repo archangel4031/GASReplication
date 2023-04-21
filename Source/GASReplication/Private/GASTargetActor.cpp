@@ -20,7 +20,7 @@ void AGASTargetActor::Tick(float DeltaSeconds)
 	Super::Tick(DeltaSeconds);
 	LineTraceFN(TraceHitResults);
 
-	if (MyReticleActor)
+	if (MyReticleActor && MasterPC->IsLocalController())
 	{
 		if (TraceHitResults.bBlockingHit)
 		{
@@ -30,6 +30,10 @@ void AGASTargetActor::Tick(float DeltaSeconds)
 		{
 			MyReticleActor->SetActorLocation(TraceHitResults.TraceEnd, false, nullptr, ETeleportType::None);
 		}
+	}
+	else
+	{
+		MyReticleActor->SetActorHiddenInGame(true);
 	}
 }
 
