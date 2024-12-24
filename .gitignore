@@ -1,0 +1,15 @@
+# ---------- My GitIgnore ----------
+/.vs/*
+/Binaries/*
+/Config/*
+!/Config/DefaultGameplayTags.ini
+!/Config/DefaultInput.ini
+Content/
+Intermediate/
+Saved/
+Script/
+DerivedDataCache/
+Binaries/
+.vs/
+/GASReplication.sln
+/GASReplication.uproject
